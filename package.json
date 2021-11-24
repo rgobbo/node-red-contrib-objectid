@@ -1,0 +1,26 @@
+{
+  "name": "node-red-contrib-bson",
+  "version": "1.0.0",
+  "description": "Node Red Node to create an ObjectID for mongodb.",
+  "keywords": [
+    "node-red",
+    "objectid",
+    "mongodb",
+    "bson",
+    "_id"
+  ],
+  "author": "Rgobbo",
+  "license": "MIT",
+  "dependencies": {
+    "bson": "^4.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rgobbo/node-red-contrib-objectid"
+  },
+  "node-red": {
+    "nodes": {
+      "objectid": "objectid.js"
+    }
+  }
+}
